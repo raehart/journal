@@ -1,1 +1,16 @@
-<h1>List go here, yo!</h1>
+{% extends "layout.html" %}
+{% block title %}{% endblock %}
+{% block content %}
+    <h1>Coding Journal</h1>
+    {% for entry in entries  %}
+        <h2>{{ entry.title }}</h2>
+        {{ entry.created }}
+        <ul class="skills">
+            Skills:
+            {% for skill in entry.skills.all %}
+                <li class="skill">{{ skill.name }}</li>
+            {% endfor %}
+        </ul>
+
+    {% endfor %}
+{% endblock %}
