@@ -3,14 +3,17 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{% static 'styles/normalize.css' %}">
+<link rel="stylesheet" href="{% static 'styles/main.css' %}">
     <meta charset="UTF-8">
     <title>{% block title %}Coding Journal{% endblock %}</title>
 </head>
 <body>
     <div class="site-container">
         <div class="header"></div>
-         {% block content %}
-         {% endblock %}
+        <div class="content">
+            {% block content %}
+         {% endblock %}</div>
     </div>
     <div class="footer">
         <div class="icons">
@@ -28,6 +31,7 @@
 			</a>
 		</div>
 		<p>Created 2016 with Creative Commons License </p>
+        <p> <a href="http://www.colourlovers.com/palette/561001/princess"> Colour Palette "Princess" by Bluefrog </a></p>
     </div>
 </body>
 </html>

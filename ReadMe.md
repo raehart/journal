@@ -5,8 +5,9 @@
 ```
 #What I learned from this project:
  ```
-
-
+   Learned Django 
+    
+    
 ```
 #User Stories
 ```
@@ -33,7 +34,9 @@
 
 #Future Features/To Do: 
   ```
-
+    add dev icon.fr for skills
+    add paganation 
+    customize the admin page 
   ```
 
 #License
