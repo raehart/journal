@@ -19,7 +19,7 @@ html, body {
   font-family: $audiowide;
   height: 60px;
   background-color: $gray;
-  box-shadow: 4px 0 8px #222;
+  box-shadow: 0 4px 8px #222;
   h1 {
     color: $green;
     margin: 0;
@@ -76,15 +76,28 @@ a, a:hover, a:active, a:visited {
   padding: 1em;
   margin: 30px auto;
   text-align: center;
+  &.detail {
+    min-height: 320px;
+    height: inherit;
+  }
+  .entry-body {
+    min-height: 200px;
+    padding: 10px;
+    p {
+      font-size: 1.25em;
+    }
+  }
 }
 
 .skills {
+  padding: 0;
   height: 50px;
 }
 
 .skill-icon {
   list-style: none;
   display: inline;
+  margin: 6px;
 }
 
 i{
@@ -99,7 +112,7 @@ i{
   padding-top: 10px;
   font-size: 0.75em;
   text-align: center;
-  box-shadow: -4px 0 8px #222;
+  box-shadow: 0 -2px 8px #222;
   p {
     margin-top: 4px;
     margin-bottom: 0;
@@ -108,7 +121,8 @@ i{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin-right: 10px; }
+    margin-right: 10px;
+    box-shadow: 0 4px 8px #222;}
   a, a:hover, a:active, a:visited {
     color: transparentize($green, 0.5);
   }

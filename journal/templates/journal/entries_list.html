@@ -6,7 +6,7 @@
         <h2>{{ entry.title }}</h2>
         {{ entry.created }}
         <ul class="skills">
-            {% for skill in entry.skills.all %}
+            {% for skill in entry.skills.all|slice:":8" %}
                 <li class="skill-icon"><i class="{{ skill.icon }}" title="{{ skill.name }} "></i></li>
             {% endfor %}
         </ul>

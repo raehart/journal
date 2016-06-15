@@ -7,7 +7,7 @@ html, body {
   font-family: "Audiowide", cursive;
   height: 60px;
   background-color: #666163;
-  box-shadow: 4px 0 8px #222; }
+  box-shadow: 0 4px 8px #222; }
   .home-bar h1 {
     color: #A7B381;
     margin: 0;
@@ -53,13 +53,23 @@ a, a:hover, a:active, a:visited {
     font-family: "Tillana", cursive;
     font-size: 33px;
     margin: 0; }
+  .entry-card.detail {
+    min-height: 320px;
+    height: inherit; }
+  .entry-card .entry-body {
+    min-height: 200px;
+    padding: 10px; }
+    .entry-card .entry-body p {
+      font-size: 1.25em; }
 
 .skills {
+  padding: 0;
   height: 50px; }
 
 .skill-icon {
   list-style: none;
-  display: inline; }
+  display: inline;
+  margin: 6px; }
 
 i {
   font-size: 50px; }
@@ -72,7 +82,7 @@ i {
   padding-top: 10px;
   font-size: 0.75em;
   text-align: center;
-  box-shadow: -4px 0 8px #222; }
+  box-shadow: 0 -2px 8px #222; }
   .footer p {
     margin-top: 4px;
     margin-bottom: 0; }
@@ -80,7 +90,8 @@ i {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin-right: 10px; }
+    margin-right: 10px;
+    box-shadow: 0 4px 8px #222; }
   .footer a, .footer a:hover, .footer a:active, .footer a:visited {
     color: rgba(167, 179, 129, 0.5); }
 
