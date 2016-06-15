@@ -1,22 +1,27 @@
 html, body {
+  font-family: "Lato", sans-serif;
   width: 100%;
   height: 100%; }
 
 .home-bar {
+  font-family: "Audiowide", cursive;
   height: 60px;
-  background-color: #666163; }
+  background-color: #666163;
+  box-shadow: 4px 0 8px #222; }
   .home-bar h1 {
     color: #A7B381;
     margin: 0;
     height: 36px;
     padding: 12px 20px; }
   .home-bar a, .home-bar a:hover, .home-bar a:active, .home-bar a:visited {
-    color: #A7B381;
-    text-decoration: none; }
+    color: #A7B381; }
   .home-bar .left {
     float: left; }
   .home-bar .right {
     float: right; }
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none; }
 
 .site-container {
   background-color: #5E3848;
@@ -33,17 +38,31 @@ html, body {
 
 .entry-card {
   background-color: #CAD197;
+  border-radius: 5px;
+  border-bottom: 1px solid #444920;
+  box-shadow: 4px 4px 8px #222;
   color: #5E3848;
   width: 800px;
-  height: 200px;
-  margin: 25px auto; }
+  height: 160px;
+  padding: 1em;
+  margin: 30px auto;
+  text-align: center; }
   .entry-card a, .entry-card a:hover, .entry-card a:active, .entry-card a:visited {
-    text-decoration: none;
     color: #5E3848; }
+  .entry-card h2 {
+    font-family: "Tillana", cursive;
+    font-size: 33px;
+    margin: 0; }
 
-.skill {
+.skills {
+  height: 50px; }
+
+.skill-icon {
   list-style: none;
   display: inline; }
+
+i {
+  font-size: 50px; }
 
 .footer {
   color: rgba(167, 179, 129, 0.5);
@@ -52,7 +71,8 @@ html, body {
   height: 85px;
   padding-top: 10px;
   font-size: 0.75em;
-  text-align: center; }
+  text-align: center;
+  box-shadow: -4px 0 8px #222; }
   .footer p {
     margin-top: 4px;
     margin-bottom: 0; }
@@ -62,7 +82,6 @@ html, body {
     border-radius: 50%;
     margin-right: 10px; }
   .footer a, .footer a:hover, .footer a:active, .footer a:visited {
-    color: rgba(167, 179, 129, 0.5);
-    text-decoration: none; }
+    color: rgba(167, 179, 129, 0.5); }
 
 /*# sourceMappingURL=main.css.map */
