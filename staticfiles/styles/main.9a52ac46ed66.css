@@ -1,0 +1,98 @@
+html, body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%; }
+
+.home-bar {
+  font-family: "Audiowide", cursive;
+  height: 60px;
+  background-color: #666163;
+  box-shadow: 0 4px 8px #222; }
+  .home-bar h1 {
+    color: #A7B381;
+    margin: 0;
+    height: 36px;
+    padding: 12px 20px; }
+  .home-bar a, .home-bar a:hover, .home-bar a:active, .home-bar a:visited {
+    color: #A7B381; }
+  .home-bar .left {
+    float: left; }
+  .home-bar .right {
+    float: right; }
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none; }
+
+.site-container {
+  background-color: #5E3848;
+  padding: 1px;
+  box-sizing: border-box;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 auto -96px;
+  overflow: auto; }
+
+.content {
+  overflow: auto;
+  margin-bottom: 106px; }
+
+.entry-card {
+  background-color: #CAD197;
+  border-radius: 5px;
+  border-bottom: 1px solid #444920;
+  box-shadow: 4px 4px 8px #222;
+  color: #5E3848;
+  width: 800px;
+  height: 160px;
+  padding: 1em;
+  margin: 30px auto;
+  text-align: center; }
+  .entry-card a, .entry-card a:hover, .entry-card a:active, .entry-card a:visited {
+    color: #5E3848; }
+  .entry-card h2 {
+    font-family: "Tillana", cursive;
+    font-size: 33px;
+    margin: 0; }
+  .entry-card.detail {
+    min-height: 320px;
+    height: inherit; }
+  .entry-card .entry-body {
+    min-height: 200px;
+    padding: 10px; }
+    .entry-card .entry-body p {
+      font-size: 1.25em; }
+
+.skills {
+  padding: 0;
+  height: 50px; }
+
+.skill-icon {
+  list-style: none;
+  display: inline;
+  margin: 6px; }
+
+i {
+  font-size: 50px; }
+
+.footer {
+  color: rgba(167, 179, 129, 0.5);
+  background-color: #666163;
+  padding: 1px;
+  height: 85px;
+  padding-top: 10px;
+  font-size: 0.75em;
+  text-align: center;
+  box-shadow: 0 -2px 8px #222; }
+  .footer p {
+    margin-top: 4px;
+    margin-bottom: 0; }
+  .footer .logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px #222; }
+  .footer a, .footer a:hover, .footer a:active, .footer a:visited {
+    color: rgba(167, 179, 129, 0.5); }
+
+/*# sourceMappingURL=main.css.map */
