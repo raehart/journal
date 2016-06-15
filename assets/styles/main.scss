@@ -60,6 +60,10 @@ html, body {
   margin: 25px auto;
 }
 
+.skill {
+  list-style: none;
+  display: inline;
+}
 .footer{
   color: transparentize($green, 0.5);
   background-color: $gray;

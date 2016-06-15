@@ -41,6 +41,10 @@ html, body {
     text-decoration: none;
     color: #5E3848; }
 
+.skill {
+  list-style: none;
+  display: inline; }
+
 .footer {
   color: rgba(167, 179, 129, 0.5);
   background-color: #666163;
