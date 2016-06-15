@@ -4,7 +4,7 @@ from journal.models import Entry
 
 
 def entries_list(request):
-    entries = Entry.objects.all()
+    entries = Entry.objects.all().order_by("-created")
     return render(request, 'journal/entries_list.html', {'entries': entries})
 
 

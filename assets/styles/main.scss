@@ -5,10 +5,80 @@ $lightgreen:#CAD197;
 $icygreen: #CDE0BF;
 
 
-.content{
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+.home-bar {
+  height: 60px;
+  background-color: $gray;
+  h1 {
+    color: $green;
+    margin: 0;
+    height: 36px;
+    padding: 12px 20px;
+  }
+  a, a:hover, a:active, a:visited {
+    color: $green;
+    text-decoration: none;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+}
+
+
+.site-container {
   background-color: $purple;
+  padding: 1px;
+  box-sizing: border-box;
+  min-height:100%;
+  min-width: 100%;
+  margin: 0 auto -96px;
+  overflow: auto;
+}
+
+.content{
+  overflow: auto;
+  margin-bottom: 106px;
+}
+
+.entry-card{
+    background-color: $lightgreen;
+    a, a:hover, a:active, a:visited {
+      text-decoration: none;
+      color: $purple;
+    }
+  color: $purple;
+  width: 800px;
+  height: 200px;
+  margin: 25px auto;
 }
 
 .footer{
-  background-color: $green;
+  color: transparentize($green, 0.5);
+  background-color: $gray;
+  padding: 1px;
+  height: 85px;
+  padding-top: 10px;
+  font-size: 0.75em;
+  text-align: center;
+  p {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px; }
+  a, a:hover, a:active, a:visited {
+    color: transparentize($green, 0.5);
+    text-decoration: none;
+  }
 }

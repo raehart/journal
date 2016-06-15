@@ -30,6 +30,7 @@
 
 
 
+
 ```
 
 #Future Features/To Do: 
@@ -37,6 +38,7 @@
     add dev icon.fr for skills
     add paganation 
     customize the admin page 
+    add navagation 
   ```
 
 #License

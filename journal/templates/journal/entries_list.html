@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}{% endblock %}
 {% block content %}
-    <h1>Coding Journal</h1>
     {% for entry in entries  %}
-        <h2>{{ entry.title }}</h2>
+          <div class="entry-card">
+        <h2><a href="{% url 'journal:detail' pk=entry.pk %}">{{ entry.title }}</a></h2>
         {{ entry.created }}
         <ul class="skills">
             Skills:
@@ -11,6 +11,6 @@
                 <li class="skill">{{ skill.name }}</li>
             {% endfor %}
         </ul>
-
+        </div>
     {% endfor %}
 {% endblock %}
