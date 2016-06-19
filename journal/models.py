@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.safestring import mark_safe
 
 
 class Skill(models.Model):
@@ -17,3 +18,6 @@ class Entry(models.Model):
 
     def __str__(self):
         return "{}: {}".format(self.created, self.title)
+
+    def display_my_safefield(self):
+        return mark_safe(self.content)
